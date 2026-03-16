@@ -1,0 +1,31 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// 生成任务记录
+model Generation {
+  id          String   @id @default(cuid())
+  prompt      String   // 用户输入的需求描述
+  status      Status   @default(PENDING)
+  files       Json?    // 生成的文件树，格式：[{ path, content }]
+  deployUrl   String?  // 部署后的访问地址
+  vercelId    String?  // Vercel deployment ID
+  errorMsg    String?  // 错误信息
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+enum Status {
+  PENDING     // 等待生成
+  GENERATING  // AI 生成中
+  DEPLOYING   // 部署中
+  DONE        // 完成
+  ERROR       // 失败
+}
