@@ -4,10 +4,19 @@
 
 ## Introduction
 
-![Video Introduction](./demo.mov)
+![Video Introduction 1](./demo.mov)
 
-<video src="./demo.mov" controls width="100%"></video>
-<video src="./demo1.mov" controls width="100%"></video>
+<video width="100%" controls>
+  <source src="./demo.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
+
+![Video Introduction 2](./demo1.mov)
+
+<video width="100%" controls>
+  <source src="./demo1.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
 
 https://ai-app-mq855q1i-1773740644119-gi1wja2j5-qdleaders-projects.vercel.app/
 
