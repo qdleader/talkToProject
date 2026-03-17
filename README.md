@@ -4,23 +4,11 @@
 
 ## Introduction
 
-![Video Introduction 1](./demo.mov)
-
-<video width="100%" controls>
-  <source src="./demo.mov" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
-
-![Video Introduction 2](./demo1.mov)
 
 
 https://github.com/user-attachments/assets/263a047a-ea2a-454e-a85b-0620bb44e430
 
 
-<video width="100%" controls>
-  <source src="./demo1.mov" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
 
 https://ai-app-mq855q1i-1773740644119-gi1wja2j5-qdleaders-projects.vercel.app/
 
