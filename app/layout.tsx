@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AI iCourt App",
+  title: "AI AI",
   description: "用自然语言生成 Next.js 应用",
 }
 

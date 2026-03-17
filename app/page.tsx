@@ -112,7 +112,7 @@ export default function Home() {
           <div className="w-8 h-8 bg-theme-500 rounded-lg flex items-center justify-center font-bold text-sm">
             AI
           </div>
-          <span className="font-semibold text-lg">iCourt App</span>
+          <span className="font-semibold text-lg">AI</span>
         </div>
       </nav>
 
@@ -124,7 +124,7 @@ export default function Home() {
               描述你的应用想法
             </h1>
             <p className="text-gray-400 text-lg">
-              用自然语言描述需求，AI 自动生成并部署 iCourt 应用
+              用自然语言描述需求，AI 自动生成并部署应用
             </p>
           </div>
         )}
